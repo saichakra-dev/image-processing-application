@@ -1,0 +1,83 @@
+/* App container styling */
+body {
+  margin: 50px;
+}
+.App {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 20px;
+  background-color: #f7f7f7;
+}
+
+/* Dropzone styling */
+.dropzone {
+  border: 2px dashed #007bff;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 20px 0;
+  cursor: pointer;
+  background-color: #fff;
+  transition: background-color 0.3s;
+}
+
+.dropzone:hover {
+  background-color: #e9ecef;
+}
+
+.dropzone p {
+  margin: 0;
+  font-size: 16px;
+  color: #333;
+}
+
+/* Controls container styling */
+.controls {
+  margin: 20px 0;
+}
+
+/* Label styling */
+.controls label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #333;
+}
+
+/* Range input styling */
+.controls input[type="range"] {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+/* Select dropdown styling */
+.controls select {
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+/* Button styling */
+button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  margin: 10px;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Image preview styling */
+img {
+  border: 2px solid #ddd;
+  border-radius: 5px;
+  margin: 10px 0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
