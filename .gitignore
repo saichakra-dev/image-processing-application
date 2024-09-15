@@ -1,0 +1,40 @@
+# Node modules for backend
+/backend/node_modules/
+
+# Node modules for frontend
+/frontend/node_modules/
+
+# Logs
+*.log
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Environment files
+.env
+
+# Build directories
+/build
+/dist
+
+# IDE/editor folders
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# NPM/Yarn lock files
+package-lock.json
+yarn.lock
+
+# Compiled files
+*.tsbuildinfo
+*.js
+*.d.ts
+
+# Next.js cache
+.next/
+
+# TypeScript output
+out/
