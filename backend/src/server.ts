@@ -4,9 +4,10 @@ import sharp from "sharp";
 import path from "path";
 import fs from "fs";
 import cors from "cors";
-
+import dotenv from "dotenv";
+dotenv.config();
 const app = express();
-const PORT = 3000 || process.env.PORT;
+const PORT = process.env.PORT ? Number(process.env.PORT) : 3000;
 
 app.use(cors());
 
